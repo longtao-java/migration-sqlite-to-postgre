@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+#mybatis-plus:
+#  mapper-locations: classpath:mybatis/mapper/*.xml
+#  type-aliases-package: com.longtao.entity
+#  # 加载全局的配置文件
+#  configLocation: classpath:mybatis/mybatis-config.xml
+
+# Spring配置
+spring:
+  profiles:
+    active: druid
